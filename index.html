@@ -14,6 +14,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
 </head>
 
 <body>
@@ -21,12 +26,12 @@
         <div class="max-width">
             <div class="logo"><a href="#">LandingPage<span>tung.</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Teams</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -163,6 +168,117 @@
                         <div class="line nodejs"></div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- teams section -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My Teams</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="img/user.jpg" alt="">
+                        <div class="text">Hoang Tung</div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="img/user.jpg" alt="">
+                        <div class="text">Hoang Tung</div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="img/user.jpg" alt="">
+                        <div class="text">Hoang Tung</div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="img/user.jpg" alt="">
+                        <div class="text">Hoang Tung</div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in touch</div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <div class="icon">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Hoang Tung</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="info">
+                                <div class="head">Phone</div>
+                                <div class="sub-title">03 7661 5839</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Ngõ 6 Phạm Văn Đồng, Cầu Giấy, Hà Nội </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">tung170100@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form target="_blank" action="https://formsubmit.co/tung170100@gmail.com" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" id="name" name="name" required>
+                            </div>
+
+                            <div class="field email">
+                                <input type="email" placeholder="Email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="field ">
+                            <input type="text" placeholder="Subject" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" id="message" name="message" placeholder="Message...."
+                                required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                    <div id="status" class="error">Success!</div>
+                </div>
+
             </div>
         </div>
     </section>
