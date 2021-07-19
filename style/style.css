@@ -48,7 +48,6 @@ textarea::placeholder {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -70,7 +69,6 @@ textarea::placeholder {
 .rubix-cube .layer-2 {
     left: 16px;
     top: 0px;
-    -webkit-animation: rubixcube3 2s infinite linear;
     animation: rubixcube3 2s infinite linear;
 }
 
@@ -82,76 +80,33 @@ textarea::placeholder {
 .rubix-cube .layer-4 {
     left: 0px;
     top: 16px;
-    -webkit-animation: rubixcube5 2s infinite linear;
     animation: rubixcube5 2s infinite linear;
 }
 
 .rubix-cube .layer-5 {
     left: 16px;
     top: 16px;
-    -webkit-animation: rubixcube2 2s infinite linear;
     animation: rubixcube2 2s infinite linear;
 }
 
 .rubix-cube .layer-6 {
     left: 32px;
     top: 16px;
-    -webkit-animation: rubixcube1 2s infinite linear;
     animation: rubixcube1 2s infinite linear;
 }
 
 .rubix-cube .layer-7 {
     left: 0px;
     top: 32px;
-    -webkit-animation: rubixcube6 2s infinite linear;
     animation: rubixcube6 2s infinite linear;
 }
 
 .rubix-cube .layer-8 {
     left: 16px;
     top: 32px;
-    -webkit-animation: rubixcube7 2s infinite linear;
     animation: rubixcube7 2s infinite linear;
 }
 
-@-webkit-keyframes rubixcube1 {
-    20% {
-        top: 16px;
-        left: 32px;
-    }
-    30% {
-        top: 32px;
-        left: 32px;
-    }
-    40% {
-        top: 32px;
-        left: 32px;
-    }
-    50% {
-        top: 32px;
-        left: 32px;
-    }
-    60% {
-        top: 32px;
-        left: 32px;
-    }
-    70% {
-        top: 32px;
-        left: 32px;
-    }
-    80% {
-        top: 32px;
-        left: 32px;
-    }
-    90% {
-        top: 32px;
-        left: 32px;
-    }
-    100% {
-        top: 32px;
-        left: 16px;
-    }
-}
 
 @keyframes rubixcube1 {
     20% {
@@ -192,32 +147,6 @@ textarea::placeholder {
     }
 }
 
-@-webkit-keyframes rubixcube2 {
-    30% {
-        left: 16px;
-    }
-    40% {
-        left: 32px;
-    }
-    50% {
-        left: 32px;
-    }
-    60% {
-        left: 32px;
-    }
-    70% {
-        left: 32px;
-    }
-    80% {
-        left: 32px;
-    }
-    90% {
-        left: 32px;
-    }
-    100% {
-        left: 32px;
-    }
-}
 
 @keyframes rubixcube2 {
     30% {
@@ -243,33 +172,6 @@ textarea::placeholder {
     }
     100% {
         left: 32px;
-    }
-}
-
-@-webkit-keyframes rubixcube3 {
-    30% {
-        top: 0px;
-    }
-    40% {
-        top: 0px;
-    }
-    50% {
-        top: 16px;
-    }
-    60% {
-        top: 16px;
-    }
-    70% {
-        top: 16px;
-    }
-    80% {
-        top: 16px;
-    }
-    90% {
-        top: 16px;
-    }
-    100% {
-        top: 16px;
     }
 }
 
@@ -300,26 +202,6 @@ textarea::placeholder {
     }
 }
 
-@-webkit-keyframes rubixcube4 {
-    50% {
-        left: 0px;
-    }
-    60% {
-        left: 16px;
-    }
-    70% {
-        left: 16px;
-    }
-    80% {
-        left: 16px;
-    }
-    90% {
-        left: 16px;
-    }
-    100% {
-        left: 16px;
-    }
-}
 
 @keyframes rubixcube4 {
     50% {
@@ -342,23 +224,6 @@ textarea::placeholder {
     }
 }
 
-@-webkit-keyframes rubixcube5 {
-    60% {
-        top: 16px;
-    }
-    70% {
-        top: 0px;
-    }
-    80% {
-        top: 0px;
-    }
-    90% {
-        top: 0px;
-    }
-    100% {
-        top: 0px;
-    }
-}
 
 @keyframes rubixcube5 {
     60% {
@@ -378,20 +243,6 @@ textarea::placeholder {
     }
 }
 
-@-webkit-keyframes rubixcube6 {
-    70% {
-        top: 32px;
-    }
-    80% {
-        top: 16px;
-    }
-    90% {
-        top: 16px;
-    }
-    100% {
-        top: 16px;
-    }
-}
 
 @keyframes rubixcube6 {
     70% {
@@ -408,17 +259,7 @@ textarea::placeholder {
     }
 }
 
-@-webkit-keyframes rubixcube7 {
-    80% {
-        left: 16px;
-    }
-    90% {
-        left: 0px;
-    }
-    100% {
-        left: 0px;
-    }
-}
+
 
 @keyframes rubixcube7 {
     80% {
@@ -450,12 +291,10 @@ textarea::placeholder {
 
 @keyframes sticky {
     0%{
-        transform: translateY(-100%);
         transform: translateY(-100%)
     }
     100%{
         transform: translateY(0%);
-        transform: translateY(0%)
     }
 }
 
@@ -465,7 +304,7 @@ textarea::placeholder {
 }
 
 .navbar.sticky .logo a span {
-    color: #000;
+    color: #fff;
 }
 
 .navbar .max-width {
