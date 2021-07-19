@@ -356,6 +356,7 @@ textarea::placeholder {
 .home {
     display: flex;
     background: url("../img/banner-1.png") no-repeat center;
+    /* background: url("../img/Clouds-66.7s-1366px.svg")  center; */
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -728,7 +729,7 @@ section .title::after {
 
 .timeline-education .title::after {
     content: 'Training';
-    background: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background:  #2a5470;
 }
 
 .timeline-education {
