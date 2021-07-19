@@ -445,17 +445,16 @@ textarea::placeholder {
 .navbar.sticky {
     padding: 15px 0;
     background: crimson;
-    -webkit-animation: sticky 2s;
     animation: sticky 2s;
 }
 
-@-webkit-keyframes sticky {
+@keyframes sticky {
     0%{
-        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
         transform: translateY(-100%)
     }
     100%{
-        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
         transform: translateY(0%)
     }
 }
