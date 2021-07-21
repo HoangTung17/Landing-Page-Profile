@@ -397,7 +397,7 @@ textarea::placeholder {
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 19px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(17, 10, 12);
     transition: all 0.3s ease;
 }
 
