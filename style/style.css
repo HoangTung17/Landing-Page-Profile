@@ -75,7 +75,7 @@ textarea::placeholder {
 .rubix-cube .layer {
     width: 14px;
     height: 14px;
-    background-color: #f1c40f;
+    background-color: #e74c3c;
     border: 1px solid #FFF;
     position: absolute;
 }
