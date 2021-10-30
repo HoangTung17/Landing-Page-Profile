@@ -27,7 +27,7 @@ textarea::placeholder {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(transparent, #DF3030);
+    background: linear-gradient(transparent, #55efc4);
 }
 
 #scrollIndicator {
