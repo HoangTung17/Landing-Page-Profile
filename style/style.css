@@ -61,6 +61,26 @@ textarea::placeholder {
     background-color: #ffc600 !important;
 }
 
+.preloader .color-2 {
+    background-color: #0984e3 !important;
+}
+
+.preloader .color-3 {
+    background-color: #fdcb6e !important;
+}
+
+.preloader .color-4 {
+    background-color: #d63031 !important;
+}
+
+.preloader .color-5 {
+    background-color: #e84393 !important;
+}
+
+.preloader .color-6 {
+    background-color: #2d3436 !important;
+}
+
 .rubix-cube {
     border: 1px solid #FFF;
     width: 48px;
