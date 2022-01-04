@@ -326,8 +326,8 @@ textarea::placeholder {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: #00796.5;
-    animation: sticky 1s;
+    background: #ee5253;
+    animation: sticky 1s;.
 }
 
 @keyframes sticky {
